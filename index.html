@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for WDD 231">
+    <meta name="author" content="Nestor Emmanuel Lizarraga">
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+         <img src="./images/profile.jpg" alt="Profile" width="200" height="200">
+        <h1>Nestor Emmanuel Lizarraga</h1>   
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/simonflash1">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/emmalizar/">Linkedin</a></li>
+            </ul>
+    </header>
+    <main>
+        <section class ="coursework">
+            <h2>Course Work</h2>
+            <li>*</li>
+            <li>*</li>
+            <li>*</li>
+        </section>
+        <section class ="city">
+            <h2>Tucuman - Argentina</h2>
+            <figure>
+               <img src="./images/tucuman.webp" alt="Tucuman" width="200"> 
+               <figcaption>Casa de Gobierno de Tucuman</figcaption>
+            </figure>
+            
+        </section>
+        <section id="certificate" class = "certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="totalCreditsContainer" class="totalCredits"></div>
+            <div class="courseButtons">
+                <button id="all">All Courses</button>
+                <button id="cse">CSE Courses</button>
+                <button id="wdd">WDD Courses</button>
+            </div>
+            <div id="coursesContainer" class="courses"></div>
+        </section>
+    </main>
+    <footer>
+        &copy; <span id="currentyear"></span> Emmanuel Lizarraga - Tucuman -
+        Argentina
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
