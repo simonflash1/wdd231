@@ -1,18 +1,30 @@
+const menuToggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+menuToggle.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});
+
+document.addEventListener("click", (event) => {
+  if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+    menu.classList.remove("active");
+  }
+});
+
+const menuLinks = document.querySelectorAll("nav ul li a");
+
+menuLinks.forEach((link) => {
+  if (link.href === window.location.href) {
+    link.classList.add("active");
+  }
+});
+
 var currentYear = new Date().getFullYear();
 document.getElementById("currentyear").textContent = currentYear;
 
 let lastModifiedDate = document.lastModified;
 document.getElementById("lastModified").textContent =
   "Last modified on: " + lastModifiedDate;
-
-/*const mainnav = document.querySelector("#animateme")
-const hambutton = document.querySelector("#menu");
-
-hambutton.addEventListener("click", () =>{
-  mainnav.classList.toggle("show");
-  hambutton.classList.toggle("show");  
-});
-*/
 
 const courses = [
   {
