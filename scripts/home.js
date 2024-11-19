@@ -14,10 +14,17 @@ document.addEventListener("click", (event) => {
 const menuLinks = document.querySelectorAll("nav ul li a");
 
 menuLinks.forEach((link) => {
-  if (link.href === window.location.href) {
+  let currentPath = window.location.pathname;
+
+  if (currentPath === "/" || currentPath === "") {
+    currentPath = "/index.html";
+  }
+
+  if (link.href.endsWith(currentPath)) {
     link.classList.add("active");
   }
 });
+
 
 var currentYear = new Date().getFullYear();
 document.getElementById("currentyear").textContent = currentYear;
