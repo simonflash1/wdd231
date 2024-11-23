@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Company A",
+    "address": "123 Main St",
+    "website_url": "https://www.example.com/a",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 1,
+    "other_information": "This is the information about Company A"
+  },
+  {
+    "name": "Company B",
+    "address": "456 Second Ave",
+    "website_url": "https://www.example.com/b",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 2,
+    "other_information": "This is the information about Company B"
+  },
+  {
+    "name": "Company C",
+    "address": "789 Third St",
+    "website_url": "https://www.example.com/c",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 3,
+    "other_information": "This is the information about Company C"
+  },
+  {
+    "name": "Company D",
+    "address": "1014 Fourth St",
+    "website_url": "https://www.example.com/d",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 2,
+    "other_information": "This is the information about Company D"
+  },
+  {
+    "name": "Company E",
+    "address": "156 Fifth Ave",
+    "website_url": "https://www.example.com/e",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 3,
+    "other_information": "This is the information about Company E"
+  },
+  {
+    "name": "Company F",
+    "address": "2016 Sixth St",
+    "website_url": "https://www.example.com/f",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 3,
+    "other_information": "This is the information about Company F"
+  },
+  {
+    "name": "Company G",
+    "address": "3017 Seventh St",
+    "website_url": "https://www.example.com/g",
+    "icon_file_name": "peatonal.jpg",
+    "membership_level": 2,
+    "other_information": "This is the information about Company G"
+  }
+]
