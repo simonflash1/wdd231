@@ -1,57 +1,57 @@
 [
   {
-    "name": "Company A",
+    "name": "La Sorpresa",
     "address": "123 Main St",
-    "website_url": "https://www.example.com/a",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://lasorpresa.com.ar/",
+    "icon_file_name": "la-sorpresa.png",
     "membership_level": 1,
     "other_information": "This is the information about Company A"
   },
   {
-    "name": "Company B",
+    "name": "Macowens",
     "address": "456 Second Ave",
-    "website_url": "https://www.example.com/b",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://www.macowens.com.ar/",
+    "icon_file_name": "macowens.png",
     "membership_level": 2,
     "other_information": "This is the information about Company B"
   },
   {
-    "name": "Company C",
+    "name": "Tiendas San Juan",
     "address": "789 Third St",
-    "website_url": "https://www.example.com/c",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://www.tiendasanjuan.com.ar/",
+    "icon_file_name": "san-juan.png",
     "membership_level": 3,
     "other_information": "This is the information about Company C"
   },
   {
-    "name": "Company D",
+    "name": "Libreria San Pablo",
     "address": "1014 Fourth St",
-    "website_url": "https://www.example.com/d",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://libreriasanpablo.com.ar/",
+    "icon_file_name": "san-pablo.jpg",
     "membership_level": 2,
     "other_information": "This is the information about Company D"
   },
   {
-    "name": "Company E",
+    "name": "Drogueria Suiza",
     "address": "156 Fifth Ave",
-    "website_url": "https://www.example.com/e",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://www.dsuiza.com.ar/",
+    "icon_file_name": "dsuiza.png",
     "membership_level": 3,
     "other_information": "This is the information about Company E"
   },
   {
-    "name": "Company F",
+    "name": "El 10 Sandwicheria",
     "address": "2016 Sixth St",
-    "website_url": "https://www.example.com/f",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://sandwicheriael10.com.ar/",
+    "icon_file_name": "el10.png",
     "membership_level": 3,
     "other_information": "This is the information about Company F"
   },
   {
-    "name": "Company G",
+    "name": "Gomez Pardo",
     "address": "3017 Seventh St",
-    "website_url": "https://www.example.com/g",
-    "icon_file_name": "peatonal.jpg",
+    "website_url": "https://www.gomezpardo.com.ar/",
+    "icon_file_name": "gomez-pardo.png",
     "membership_level": 2,
     "other_information": "This is the information about Company G"
   }
