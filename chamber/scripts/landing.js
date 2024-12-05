@@ -25,10 +25,10 @@ document.addEventListener("click", (event) => {
 menuLinks.forEach((link) => {
   let currentPath = window.location.pathname;
 
-  if (currentPath === "/" || currentPath === "") {
+  if (currentPath === "/wdd231/chamber/" || currentPath === "/wdd231/chamber") {
     currentPath = "/index.html";
   }
-
+//console.log(currentPath);
   if (link.href.endsWith(currentPath)) {
     link.classList.add("active");
   }
