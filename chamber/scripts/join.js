@@ -46,7 +46,6 @@ document.getElementById("lastModified").textContent =
   "Last modified: " + document.lastModified;
 
 
-document.addEventListener("DOMContentLoaded", () => {
     const modalTriggers = document.querySelectorAll("[data-modal]");
     const modals = document.querySelectorAll(".modal");
   
@@ -70,4 +69,3 @@ document.addEventListener("DOMContentLoaded", () => {
     if (timestampField) {
       timestampField.value = new Date().toISOString().split("T")[0];
     }
-  });
