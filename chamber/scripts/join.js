@@ -91,6 +91,8 @@ if (lastVisit) {
 
 localStorage.setItem("last-visit", now);
 
+/*
+
 const images = [
   {
     place: "Villa Nougues",
@@ -138,7 +140,7 @@ function displayImages(images) {
     container.appendChild(card);
   });
 }
-displayImages(images);
+displayImages(images);*/
 
 function generateCalendar() {
   const container = document.getElementById("calendar-container");
