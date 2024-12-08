@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover the Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/join.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="Discover Page Chamber of Commerce for WDD 231 Web Frontend Development I">
+    <meta name="author" content="Nestor Emmanuel Lizarraga">
+    <meta property="og:title" content="Registration">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://simonflash1.github.io/wdd231/chamber/images/tucuman.jpg">
+    <meta property="og:url" content="https://simonflash1.github.io/wdd231/chamber/index.html">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://simonflash1.github.io/wdd231/chamber/index.html">
+    <meta property="twitter:title" content="Registration">
+    <meta property="twitter:description" content="Discover Page Chamber of Commerce for WDD 231 Web Frontend Development I">
+    <meta property="twitter:image" content="https://simonflash1.github.io/wdd231/chamber/images/tucuman.jpg">
+  </head>
+  <body class="light-mode">
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="./images/tucuman.jpg" alt="Tucuman logo" width="100" height="100">
+            <div>
+              <h1>Tucuman</h1>
+              <p>Chamber of Commerce</p>
+            </div>
+          </div>
+          <nav>
+            <button id="menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle theme">
+              <span id="theme-icon">🌙</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="grid-container">
+        <aside class="sidebar">
+          <div class="info-card" id="visitMessage"></div>
+          <div class="info-card">
+            <h2>Tucuman - Argentina</h2>
+            <p>Also known as "Garden of the Republic".</p>
+          </div>
+          <div class="info-card">
+            <h2>Where is located?</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tucuman_in_Argentina_%28%2BFalkland_hatched%29-2.svg/280px-Tucuman_in_Argentina_%28%2BFalkland_hatched%29-2.svg.png" alt="Tucuman in Argentina" class="placeholder-img">
+            <p>Tucuman is the smallest province in Argentina</p>
+          </div>
+          <div id="calendar-container"></div>
+        </aside>
+        <div id="gallery-container" class="gallery-container">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Emmanuel Lizarraga - Tucuman, Argentina</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
