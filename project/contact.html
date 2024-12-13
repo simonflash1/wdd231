@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanguche Route</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/route.css">
+    <script type="module" src="./scripts/contact.js"></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="Individual Project for WDD 231 Web Frontend Development I">
+    <meta name="author" content="Nestor Emmanuel Lizarraga">
+    <meta property="og:title" content="Sanguche Route">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/simonflash1/wdd231/blob/main/project/images/asdf.jpg">
+    <meta property="og:url" content="https://simonflash1.github.io/wdd231/project/contact.html">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://simonflash1.github.io/wdd231/project/contact.html">
+    <meta property="twitter:title" content="Sanguche Route">
+    <meta property="twitter:description" content="Individual Project for WDD 231 Web Frontend Development I">
+    <meta property="twitter:image" content="https://github.com/simonflash1/wdd231/blob/main/project/images/asdf.jpg">
+  </head>
+  <body>
+    <header>
+          <div class="logo">
+            <img src="./images/asdf.jpg" alt="Route logo" width="150" height="80" loading="lazy">
+            <div>
+              <h1>Sanguche Route</h1>
+            </div>
+          </div>
+          <nav>
+            <button id="menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+          </nav>
+          
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./images/hero.jpg" alt="Delicious sandwich hero image">
+        </div>
+      <div class="form-container" id="contact">
+        <h2>Contact Us</h2>
+        <form id="userForm" autocomplete="on">
+          <label>
+            First Name:
+            <input type="text" name="first-name"  placeholder="First Name" autocomplete="given-name" required>
+          </label>
+          <label>
+            Last Name:
+            <input type="text" name="last-name" placeholder="Last Name" autocomplete="family-name" required>
+          </label>
+            <label>
+              Email:
+              <input type="email" name="email" autocomplete="email" placeholder="example@domain.com" required>
+            </label>
+            <label>
+              Cell Phone:
+              <input type="tel" name="mobile" placeholder="Cell Phone" autocomplete="tel" required>
+            </label>
+            <label>
+              Your Message:
+              <textarea name="business-description" placeholder="Your Message"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <input type="submit" value="Send Message">
+        </form>
+        <div id="thankYouModal" class="modal hidden">
+          <div class="modal-content">
+            <h2>Thank You for Contacting Us!</h2>
+            <p>We have successfully received your Message. Below are the details you provided:</p>
+            <div id="results"></div>
+            <p>We will contact you as soon as possible.</p>
+            <button id="closeModal">Close</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p id="visit-counter"></p>
+      <p>&copy; <span id="currentyear"></span> Emmanuel Lizarraga - Tucuman, Argentina</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

@@ -107,7 +107,7 @@
         "address": "9 de Julio 801, T4000 San Miguel de Tucumán, Tucumán",
         "phone": "03812629645",
         "website": null,
-        "rating": 4.2,
+        "rating": 4.5,
         "price_range": "$",
         "hours": {
           "monday": "11:00-21:00",
@@ -239,7 +239,7 @@
         "address": "Batalla de Suipacha 950, T4001 San Miguel de Tucumán, Tucumán",
         "phone": "0381 7654321",
         "website": null,
-        "rating": 4.2,
+        "rating": 4.5,
         "price_range": "$",
         "hours": {
           "monday": "11:00-21:00",
@@ -272,7 +272,7 @@
         "address": "Av. Roca esq. Jujuy, San Miguel de Tucumán",
         "phone": "0381 123456",
         "website": null,
-        "rating": 4.2,
+        "rating": 4.5,
         "price_range": "$",
         "hours": {
           "monday": "11:00-21:00",

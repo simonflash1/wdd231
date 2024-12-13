@@ -6,16 +6,16 @@
     <title>Sanguche Route</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/route.css">
-    <script type="module" src="./scripts/scripts.js"></script>
+    <script type="module" src="scripts/about.js"></script>
     <link rel="icon" href="images/favicon.ico">
     <meta name="description" content="Individual Project for WDD 231 Web Frontend Development I">
     <meta name="author" content="Nestor Emmanuel Lizarraga">
     <meta property="og:title" content="Sanguche Route">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://github.com/simonflash1/wdd231/blob/main/project/images/asdf.jpg">
-    <meta property="og:url" content="https://simonflash1.github.io/wdd231/project/index.html">
+    <meta property="og:url" content="https://simonflash1.github.io/wdd231/project/about.html">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://simonflash1.github.io/wdd231/project/index.html">
+    <meta property="twitter:url" content="https://simonflash1.github.io/wdd231/project/about.html">
     <meta property="twitter:title" content="Sanguche Route">
     <meta property="twitter:description" content="Individual Project for WDD 231 Web Frontend Development I">
     <meta property="twitter:image" content="https://github.com/simonflash1/wdd231/blob/main/project/images/asdf.jpg">
@@ -35,38 +35,32 @@
               <span></span>
             </button>
             <ul id="menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="restaurants.html">Restaurants</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="about.html">About</a></li>
-            </ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
           </nav>
+          
     </header>
     <main>
-      <div class="hero">
-        <img src="./images/hero.jpg" alt="Delicious sandwich hero image">
+      <div class="about" id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <p>
+            We are a group of friends and students from Tucuman, Argentina. We love
+            "Sanguches de Milanesa" a local way to say "Milanesa Sandwich" and went to a lot of restaurants and tried a lot
+            of different Sanguches so we want to share our knowledge with others. We
+            believe that knowledge is power and that sharing it is the key to
+            success. We are dedicated to providing the best and up-to-date
+            information about where to find the best restaurant for you.
+          </p>
+          <div class="about-images">
+            <img src="./images/wachankey.jpg" alt="wachankey" width="400" loading="lazy">
+            <img src="./images/jordis.jpg" alt="jordis" width="400" loading="lazy">
+          </div>
+        </div>
       </div>
-      <div class="about">
-        <h2>Welcome to Sanguche Route!</h2>
-        <h3>Discover the best Milanesa Sandwiches in 📍Tucumán, Argentina📍.</h3>
-      </div>
-      <section class="featured-restaurants">
-        <h2>Top Rated Restaurants</h2>
-        <div class="cards" id="top-restaurants">
-        </div>
-        <button onclick="window.location.href='restaurants.html'">See All Restaurants</button>
-      </section>
-      <section class="about">
-        <h2>What People Are Saying</h2>
-        <div class="card">
-          <p>"Thanks to Sanguche Route, I discovered the best milanesa sandwich I've ever had!"</p>
-          <h3>- María, Tucumán</h3>
-        </div>
-        <div class="card">
-          <p>"This guide is amazing. It saved me so much time and the recommendations are really good!"</p>
-          <h3>- José, Buenos Aires</h3>
-        </div>
-      </section>
     </main>
     <footer>
       <p id="visit-counter"></p>
