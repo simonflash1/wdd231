@@ -19,7 +19,10 @@ setupMenuToggle();
 
 export function highlightActiveMenu() {
   const menuLinks = document.querySelectorAll("nav ul li a");
-  const currentPath = window.location.pathname.split("/").pop();
+  let currentPath = window.location.pathname;
+  if (currentPath === "/project/" || currentPath === "/project") {
+    currentPath = "/index.html";
+  }
 
   menuLinks.forEach((link) => {
     if (link.href.includes(currentPath)) {
