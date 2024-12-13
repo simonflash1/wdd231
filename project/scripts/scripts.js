@@ -23,7 +23,7 @@ export function highlightActiveMenu() {
   if (currentPath === "/wdd231/project/" || currentPath === "/wdd231/project") {
     currentPath = "/index.html";
   }
-console.log(currentPath);
+//console.log(currentPath);
   menuLinks.forEach((link) => {
     if (link.href.includes(currentPath)) {
       link.classList.add("active");
