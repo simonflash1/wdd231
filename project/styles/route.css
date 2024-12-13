@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #ff0505;  /* Rojo */
---secondary-color: #ffd700; /* Amarillo */
---background-color: #f8f4e3; /* Beige suave */
---text-color: #333; /* Gris oscuro para mejor contraste */
+  --primary-color: #ff0505;
+--secondary-color: #ffd700;
+--background-color: #f8f4e3;
+--text-color: #333;
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
