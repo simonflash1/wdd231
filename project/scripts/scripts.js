@@ -20,10 +20,10 @@ setupMenuToggle();
 export function highlightActiveMenu() {
   const menuLinks = document.querySelectorAll("nav ul li a");
   let currentPath = window.location.pathname;
-  if (currentPath === "/project/" || currentPath === "/project") {
+  if (currentPath === "/wdd231/project/" || currentPath === "/wdd231/project") {
     currentPath = "/index.html";
   }
-
+console.log(currentPath);
   menuLinks.forEach((link) => {
     if (link.href.includes(currentPath)) {
       link.classList.add("active");
