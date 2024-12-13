@@ -53,7 +53,7 @@
       </div>
       <div class="form-container" id="contact">
         <h2>Contact Us</h2>
-        <form action="thankyou.html" method="get" target="_blank" autocomplete="on">
+        <form id="userForm" autocomplete="on">
           <label>
             First Name:
             <input type="text" name="first-name"  placeholder="First Name" autocomplete="given-name" required>
@@ -77,6 +77,15 @@
             <input type="hidden" name="timestamp" id="timestamp" value="">
             <input type="submit" value="Send Message">
         </form>
+        <div id="thankYouModal" class="modal hidden">
+          <div class="modal-content">
+            <h2>Thank You for Contacting Us!</h2>
+            <p>We have successfully received your Message. Below are the details you provided:</p>
+            <div id="results"></div>
+            <p>We will contact you as soon as possible.</p>
+            <button id="closeModal">Close</button>
+          </div>
+        </div>
       </div>
       <div class="about" id="about">
         <h2>About Us</h2>
@@ -90,22 +99,14 @@
             information about where to find the best restaurant for you.
           </p>
           <div class="about-images">
-            <img
-              src="./images/wachankey.jpg"
-              alt="wachankey"
-              width="400"
-              loading="lazy">
-            <img
-              src="./images/jordis.jpg"
-              alt="jordis"
-              width="400"
-              loading="lazy">
+            <img src="./images/wachankey.jpg" alt="wachankey" width="400" loading="lazy">
+            <img src="./images/jordis.jpg" alt="jordis" width="400" loading="lazy">
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <p>You have visited this page <span id="visited"></span> times.</p>
+      <p id="visit-counter"></p>
       <p>&copy; <span id="currentyear"></span> Emmanuel Lizarraga - Tucuman, Argentina</p>
       <p id="lastModified"></p>
     </footer>
