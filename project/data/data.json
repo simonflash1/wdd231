@@ -137,9 +137,9 @@
       {
         "id": 5,
         "name": "El Club de la Milanesa",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
+        "address": "SANTA FE 680, San Miguel de Tucumán",
         "phone": "0381 7654321",
-        "website": null,
+        "website": "https://elclubdelamilanesa.com/",
         "rating": 4.2,
         "price_range": "$",
         "hours": {
@@ -152,8 +152,8 @@
           "sunday": "Closed"
         },
         "specialties": [
-          "Milanesa Especial",
-          "Mila Loco"
+          "Milanesa Clasica",
+          "La Bestia"
         ],
         "services": [
           "Takeaway",
@@ -170,8 +170,8 @@
       {
         "id": 6,
         "name": "Tutti Sangucheria",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
-        "phone": "0381 7654321",
+        "address": "Virgen de la Merced 727, San Miguel de Tucumán",
+        "phone": "3814156880",
         "website": null,
         "rating": 4.2,
         "price_range": "$",
@@ -185,8 +185,8 @@
           "sunday": "Closed"
         },
         "specialties": [
-          "Milanesa Especial",
-          "Mila Loco"
+          "Extra Largo",
+          "Lomito"
         ],
         "services": [
           "Takeaway",
@@ -203,7 +203,7 @@
       {
         "id": 7,
         "name": "Sandwicheria Pepe",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
+        "address": "Av. Aconquija 2063 T4107, T4107 Yerba Buena, Tucumán",
         "phone": "0381 7654321",
         "website": null,
         "rating": 4.2,
@@ -219,7 +219,7 @@
         },
         "specialties": [
           "Milanesa Especial",
-          "Mila Loco"
+          "Mila Comun"
         ],
         "services": [
           "Takeaway",
@@ -236,7 +236,7 @@
       {
         "id": 8,
         "name": "Los Electricos",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
+        "address": "Batalla de Suipacha 950, T4001 San Miguel de Tucumán, Tucumán",
         "phone": "0381 7654321",
         "website": null,
         "rating": 4.2,
@@ -252,7 +252,7 @@
         },
         "specialties": [
           "Milanesa Especial",
-          "Mila Loco"
+          "Mila Comun"
         ],
         "services": [
           "Takeaway",
@@ -269,8 +269,8 @@
       {
         "id": 9,
         "name": "Wachankey",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
-        "phone": "0381 7654321",
+        "address": "Av. Roca esq. Jujuy, San Miguel de Tucumán",
+        "phone": "0381 123456",
         "website": null,
         "rating": 4.2,
         "price_range": "$",
@@ -285,7 +285,7 @@
         },
         "specialties": [
           "Milanesa Especial",
-          "Mila Loco"
+          "Mila Comun"
         ],
         "services": [
           "Takeaway",
@@ -302,8 +302,8 @@
       {
         "id": 10,
         "name": "El 10",
-        "address": "Av. Jujuy esq. Larrea, San Miguel de Tucumán",
-        "phone": "0381 7654321",
+        "address": "Av. Marina Alfaro 902, T4000 San Miguel de Tucumán, Tucumán",
+        "phone": "0381 123456",
         "website": null,
         "rating": 4.2,
         "price_range": "$",
@@ -318,7 +318,7 @@
         },
         "specialties": [
           "Milanesa Especial",
-          "Mila Loco"
+          "Mila Comun"
         ],
         "services": [
           "Takeaway",

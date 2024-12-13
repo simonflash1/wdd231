@@ -65,7 +65,8 @@ menuToggle.addEventListener("click", (event) => {
       timestampField.value = new Date().toISOString().split("T")[0];
     }
 
-    
-  document.getElementById("currentyear").textContent = new Date().getFullYear();
+document.getElementById("visited").textContent = "";
 
-  document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;

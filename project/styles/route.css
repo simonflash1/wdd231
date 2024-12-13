@@ -11,13 +11,21 @@
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #f1f19d;
-  color: var(--secondary-color);
-  padding: 1rem;
+  color: var(--primary-color);
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: var(--primary-color);
+  z-index: 1000;
+}
+
+main {
+  margin-top: 235px;
 }
 
 nav {
@@ -65,15 +73,18 @@ nav ul li a.active {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   background-color: #afaeae;
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.hero{
+  background: url(https://simonflash1.github.io/wdd231/project/images/hero.jpg) no-repeat;
+  background-size: 100%;
+  background-position-y: -200px;
+}
+.hero img { 
+  display: none;
 }
 
 .cards {
